@@ -5,22 +5,29 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#546E7A",
-          "foreground": "#26C6DA",
+          "background": "#070707",
+          "foreground": "#fb7e14",
           "style": "plain",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} \ue0b1",
           "type": "os"
         },
         {
-          "background": "#546E7A",
-          "foreground": "#26C6DA",
+          "background": "#070707",
+          "foreground": "#fb7e14",
           "style": "plain",
           "template": " \uf0e7 ",
           "type": "root"
         },
         {
-          "background": "#546E7A",
-          "foreground": "#26C6DA",
+          "background": "#070707",
+          "foreground": "#fb7e14",
+          "style": "plain",
+          "template": " \uf0e7 ",
+          "type": "text"
+        },
+        {
+          "background": "#666A73",
+          "foreground": "#F2BB13",
           "properties": {
             "style": "full"
           },
@@ -29,15 +36,15 @@
           "type": "path"
         },
         {
-          "background": "#546E7A",
-          "foreground": "#D4E157",
+          "background": "#F28B0C",
+          "foreground": "#242426",
           "style": "plain",
           "template": "<#26C6DA>\ue0b1 </>{{ .HEAD }} ",
           "type": "git"
         },
         {
           "background": "transparent",
-          "foreground": "#546E7A",
+          "foreground": "#F2BB13",
           "style": "plain",
           "template": "\ue0b0",
           "type": "text"
@@ -49,16 +56,16 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#546E7A",
-          "foreground": "#D4E157",
+          "background": "#666A73",
+          "foreground": "#F2BB13",
           "leading_diamond": "\ue0b2",
           "style": "diamond",
           "template": " {{ .UserName }}@{{ .HostName }} <#26C6DA>\ue0b3</> ",
           "type": "session"
         },
         {
-          "background": "#546E7A",
-          "foreground": "#D4E157",
+          "background": "#666A73",
+          "foreground": "#F2BB13",
           "properties": {
             "time_format": "15:04:05"
           },
@@ -74,7 +81,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#D4E157",
+          "foreground": "#F2BB13",
           "foreground_templates": [
             "{{ if gt .Code 0 }}#FF5252{{ end }}"
           ],
