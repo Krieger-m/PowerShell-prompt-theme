@@ -53,7 +53,7 @@
           "foreground": "#D4E157",
           "leading_diamond": "\ue0b2",
           "style": "diamond",
-          "template": " @{{ .HostName }} <#e9de43>\ue0b3</> ", 
+          "template": " @ {{ .HostName }} <#e9de43>\ue0b3</> ", 
           "type": "session"
         },
         {
