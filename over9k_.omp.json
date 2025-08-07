@@ -62,7 +62,7 @@
           "properties": {
             "time_format": "15:04:05"
           },
-          "style": "plain",
+          "style": "accordion",
           "template": " {{ .CurrentDate | date .Format }} \uf017 ",
           "type": "time"
         }
